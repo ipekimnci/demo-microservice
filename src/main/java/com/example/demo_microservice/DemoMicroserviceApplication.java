@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Demo Management API", version = "1.0", description = "Demo Application"))
+@OpenAPIDefinition(info = @Info(title = "Demo Management API", version = "1.0", description = "Demo Micro Application"))
 public class DemoMicroserviceApplication {
 
 	public static void main(String[] args) {
